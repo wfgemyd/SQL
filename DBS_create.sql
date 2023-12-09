@@ -112,3 +112,6 @@ CREATE VIEW view_doctor_department AS
 SELECT d.doctor_id, d.first_name, d.last_name, d.specialization, dp.department_name
 FROM hospitals.doctor d
 JOIN hospitals.department dp ON d.department_id = dp.department_id;
+
+
+

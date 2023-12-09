@@ -38,7 +38,7 @@ INSERT INTO hospitals.nurse (nurse_nurse_id, first_name, last_name, is_chef) VAL
 -- Insert data into `hospitals`.`room`
 -- Insert multiple rooms
 INSERT INTO hospitals.room (department_id, is_vip, occupancy) VALUES
-(1, FALSE, 3),
+(1, FALSE, 1),
 (2, FALSE, 2),
 (2, TRUE, 1),  -- VIP room with allowed occupancy
 (3, FALSE, 2),
