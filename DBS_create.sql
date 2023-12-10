@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS hospitals.nurse (
     first_name VARCHAR(256) NOT NULL,
     last_name VARCHAR(256) NOT NULL,
     is_chef VARCHAR(256) NOT NULL,
-    nurse_nurse_id INTEGER, -- Notice the column name change here
+    nurse_nurse_id INTEGER,
     CONSTRAINT fk_nurse_nurse FOREIGN KEY (nurse_nurse_id) REFERENCES hospitals.nurse(nurse_id) ON DELETE CASCADE
 );
 

@@ -4,6 +4,7 @@ INSERT INTO hospitals.department (department_name, phone_num_extension) VALUES
 ('Neurology', '1002'),
 ('Oncology', '1003'),
 ('Pediatrics', '1004'),
+('General Medicine', '1234'),
 ('Orthopedics', '1005');
 
 -- Insert data into `hospitals`.`doctor`
